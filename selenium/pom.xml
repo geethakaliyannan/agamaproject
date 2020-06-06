@@ -32,11 +32,13 @@
 		</dependency>
 		<!-- This is the one working for Headless Browser -->
 
+        <!--  This one used for testNG -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.8.5</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
