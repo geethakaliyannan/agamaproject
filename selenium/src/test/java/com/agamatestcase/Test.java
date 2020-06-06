@@ -10,6 +10,8 @@ public class Test {
 		// TODO Auto-generated method stub
 		WebDriver driver = new HtmlUnitDriver();
 		driver.get("https://www.google.com/");
+		System.out.println("buils test 2");
+
 
 	}
 
