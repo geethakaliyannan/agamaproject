@@ -2,7 +2,7 @@ package com.test.testNG;
 
 import org.testng.annotations.Test;
 
-//import junit.framework.Assert;
+import junit.framework.Assert;
 
 public class DeeponsuponMethods {
 	@Test() 
@@ -14,7 +14,7 @@ public class DeeponsuponMethods {
 	public void search() {
 		
 		System.out.println("search");
-		//Assert.assertEquals("xyz", "abc");
+		Assert.assertEquals("xyz", "abc");
 	}
 	@Test(dependsOnMethods="search",alwaysRun=true) 
 	public void logout() {
